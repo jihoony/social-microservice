@@ -14,7 +14,7 @@ public final class Multiplication {
     private final int factorA;
     private final int factorB;
 
-    private int result;
+//    private int result;
 
     Multiplication() {
         this(0, 0);

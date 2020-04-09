@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MultiplicationServiceImpl implements  MultiplicationService{
+final public class MultiplicationServiceImpl implements  MultiplicationService{
 
     private RandomGeneratorService randomGeneratorService;
 
     @Autowired
-    public MultiplicationServiceImpl(RandomGeneratorService randomGeneratorService) {
+    public MultiplicationServiceImpl(final RandomGeneratorService randomGeneratorService) {
         this.randomGeneratorService = randomGeneratorService;
     }
 
@@ -23,7 +23,7 @@ public class MultiplicationServiceImpl implements  MultiplicationService{
     }
 
     @Override
-    public boolean checkAttempt(MultiplicationResultAttempt resultAttempt) {
+    public boolean checkAttempt(final MultiplicationResultAttempt resultAttempt) {
         return resultAttempt.getResultAttempt() ==
                 resultAttempt.getMultiplication().getFactorA() *
                         resultAttempt.getMultiplication().getFactorB();
