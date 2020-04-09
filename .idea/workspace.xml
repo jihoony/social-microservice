@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d328980f-ceb1-4af1-a2dc-8f08527a296c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/RandomGeneratorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/microservices/book/SocialMultiplicationApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/SocialMultiplicationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/SocialMultiplicationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/SocialMultiplicationApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/RandomGeneratorServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/RandomGeneratorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="microservices.book" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="microservices.book.multiplication.service" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="SocialMultiplicationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -76,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586329722327</updated>
       <workItem from="1586329728570" duration="3034000" />
-      <workItem from="1586396158975" duration="484000" />
+      <workItem from="1586396158975" duration="1526000" />
     </task>
     <servers />
   </component>
@@ -87,33 +89,37 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1586332935529">
+    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1586396830937">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586332935529" />
+    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586396830937" />
     <state x="713" y="418" width="494" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586332736839">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="713" y="418" width="494" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586332736839" />
-    <state width="1878" height="278" key="GridCell.Tab.0.bottom" timestamp="1586396652632">
+    <state width="1878" height="380" key="GridCell.Tab.0.bottom" timestamp="1586397914075">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="278" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586396652632" />
-    <state width="1878" height="278" key="GridCell.Tab.0.center" timestamp="1586396652631">
+    <state width="1878" height="380" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586397914075" />
+    <state width="1878" height="380" key="GridCell.Tab.0.center" timestamp="1586397914074">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="278" key="GridCell.Tab.0.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586396652631" />
-    <state width="1878" height="278" key="GridCell.Tab.0.left" timestamp="1586396652629">
+    <state width="1878" height="380" key="GridCell.Tab.0.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586397914074" />
+    <state width="1878" height="380" key="GridCell.Tab.0.left" timestamp="1586397914073">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="278" key="GridCell.Tab.0.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586396652629" />
-    <state width="1878" height="278" key="GridCell.Tab.0.right" timestamp="1586396652631">
+    <state width="1878" height="380" key="GridCell.Tab.0.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586397914073" />
+    <state width="1878" height="380" key="GridCell.Tab.0.right" timestamp="1586397914075">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="278" key="GridCell.Tab.0.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586396652631" />
+    <state width="1878" height="380" key="GridCell.Tab.0.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586397914075" />
     <state x="469" y="190" key="SettingsEditor" timestamp="1586396358537">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="469" y="190" key="SettingsEditor/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586396358537" />
+    <state x="625" y="258" key="search.everywhere.popup" timestamp="1586397007220">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="258" key="search.everywhere.popup/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586397007220" />
   </component>
 </project>
