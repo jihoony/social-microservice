@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d328980f-ceb1-4af1-a2dc-8f08527a296c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586329722327</updated>
       <workItem from="1586329728570" duration="3034000" />
-      <workItem from="1586396158975" duration="6692000" />
+      <workItem from="1586396158975" duration="7793000" />
     </task>
     <task id="LOCAL-00001" summary="Controller 추가&#10;1차 화면 추가">
       <created>1586410698804</created>
@@ -129,22 +135,22 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="558" y="154" key="CommitChangelistDialog2/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410698297" />
-    <state width="1878" height="380" key="GridCell.Tab.0.bottom" timestamp="1586410649219">
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom" timestamp="1586411913683">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410649219" />
-    <state width="1878" height="380" key="GridCell.Tab.0.center" timestamp="1586410649217">
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913683" />
+    <state width="1878" height="288" key="GridCell.Tab.0.center" timestamp="1586411913681">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.0.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410649217" />
-    <state width="1878" height="380" key="GridCell.Tab.0.left" timestamp="1586410649216">
+    <state width="1878" height="288" key="GridCell.Tab.0.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913681" />
+    <state width="1878" height="288" key="GridCell.Tab.0.left" timestamp="1586411913680">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.0.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410649216" />
-    <state width="1878" height="380" key="GridCell.Tab.0.right" timestamp="1586410649218">
+    <state width="1878" height="288" key="GridCell.Tab.0.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913680" />
+    <state width="1878" height="288" key="GridCell.Tab.0.right" timestamp="1586411913682">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.0.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410649218" />
+    <state width="1878" height="288" key="GridCell.Tab.0.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913682" />
     <state width="1878" height="380" key="GridCell.Tab.1.bottom" timestamp="1586410642802">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

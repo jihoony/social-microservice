@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: microservices.book.multiplication.service.MultiplicationServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 sec <<< FAILURE! - in microservices.book.multiplication.service.MultiplicationServiceImplTest
+checkCorrectAttemptTest(microservices.book.multiplication.service.MultiplicationServiceImplTest)  Time elapsed: 0.041 sec  <<< ERROR!
+java.lang.IllegalArgumentException: 채점한 상태로 보낼 수 없습니다!!
+	at org.springframework.util.Assert.isTrue(Assert.java:92)
+	at microservices.book.multiplication.service.MultiplicationServiceImpl.checkAttempt(MultiplicationServiceImpl.java:32)
+	at microservices.book.multiplication.service.MultiplicationServiceImplTest.checkCorrectAttemptTest(MultiplicationServiceImplTest.java:50)
+
