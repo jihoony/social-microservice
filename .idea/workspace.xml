@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d328980f-ceb1-4af1-a2dc-8f08527a296c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/RandomGeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/RandomGeneratorServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +81,16 @@
       <option name="presentableId" value="Default" />
       <updated>1586329722327</updated>
       <workItem from="1586329728570" duration="3034000" />
-      <workItem from="1586396158975" duration="6421000" />
+      <workItem from="1586396158975" duration="6692000" />
     </task>
+    <task id="LOCAL-00001" summary="Controller 추가&#10;1차 화면 추가">
+      <created>1586410698804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586410698805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Controller 추가&#10;1차 화면 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller 추가&#10;1차 화면 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586398861639">
@@ -125,6 +125,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="713" y="418" width="524" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586402334601" />
+    <state x="558" y="154" key="CommitChangelistDialog2" timestamp="1586410698297">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="558" y="154" key="CommitChangelistDialog2/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410698297" />
     <state width="1878" height="380" key="GridCell.Tab.0.bottom" timestamp="1586410649219">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
