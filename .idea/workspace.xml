@@ -2,13 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d328980f-ceb1-4af1-a2dc-8f08527a296c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationResultAttemptRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/RandomGeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/RandomGeneratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationResultAttemptController$ResultResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationResultAttemptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationResultAttemptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/MultiplicationResultAttempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/MultiplicationResultAttempt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/RandomGeneratorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/RandomGeneratorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/multiplication-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-microservices.book.SocialMultiplicationApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-microservices.book.multiplication.controller.MultiplicationControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-microservices.book.multiplication.controller.MultiplicationResultAttemptControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-microservices.book.multiplication.service.MultiplicationServiceImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-microservices.book.multiplication.service.RandomGeneratorServiceImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/microservices.book.SocialMultiplicationApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/microservices.book.multiplication.controller.MultiplicationControllerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/microservices.book.multiplication.controller.MultiplicationResultAttemptControllerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/microservices.book.multiplication.service.MultiplicationServiceImplTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/microservices.book.multiplication.service.RandomGeneratorServiceImplTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/service/MultiplicationServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/service/MultiplicationServiceImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,7 +106,38 @@
       <recent name="microservices.book.multiplication.service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SocialMultiplicationApplication">
+    <configuration name="MultiplicationResultAttemptControllerTest.getUserStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="microservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.controller" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.controller.MultiplicationResultAttemptControllerTest" />
+      <option name="METHOD_NAME" value="getUserStats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="microservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.service" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.service.MultiplicationServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocialMultiplicationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="microservices.book.SocialMultiplicationApplication" />
@@ -75,6 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MultiplicationResultAttemptControllerTest.getUserStats" />
+        <item itemvalue="JUnit.MultiplicationServiceImplTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586329722327</updated>
       <workItem from="1586329728570" duration="3034000" />
-      <workItem from="1586396158975" duration="7793000" />
+      <workItem from="1586396158975" duration="11605000" />
+      <workItem from="1586485142817" duration="2762000" />
     </task>
     <task id="LOCAL-00001" summary="Controller 추가&#10;1차 화면 추가">
       <created>1586410698804</created>
@@ -107,7 +184,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -123,10 +202,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586398861639" />
-    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1586398590483">
+    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1586419642824">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586398590483" />
+    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586419642824" />
     <state x="713" y="418" width="524" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586402334601">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -135,45 +214,60 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="558" y="154" key="CommitChangelistDialog2/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410698297" />
-    <state width="1878" height="288" key="GridCell.Tab.0.bottom" timestamp="1586411913683">
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1586499762740">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="288" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913683" />
-    <state width="1878" height="288" key="GridCell.Tab.0.center" timestamp="1586411913681">
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762740" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1586499762738">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="288" key="GridCell.Tab.0.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913681" />
-    <state width="1878" height="288" key="GridCell.Tab.0.left" timestamp="1586411913680">
+    <state width="1878" height="285" key="GridCell.Tab.0.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762738" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1586499762737">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="288" key="GridCell.Tab.0.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913680" />
-    <state width="1878" height="288" key="GridCell.Tab.0.right" timestamp="1586411913682">
+    <state width="1878" height="285" key="GridCell.Tab.0.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762737" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1586499762739">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="288" key="GridCell.Tab.0.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586411913682" />
-    <state width="1878" height="380" key="GridCell.Tab.1.bottom" timestamp="1586410642802">
+    <state width="1878" height="285" key="GridCell.Tab.0.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762739" />
+    <state width="1878" height="285" key="GridCell.Tab.1.bottom" timestamp="1586499762743">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410642802" />
-    <state width="1878" height="380" key="GridCell.Tab.1.center" timestamp="1586410642801">
+    <state width="1878" height="285" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762743" />
+    <state width="1878" height="285" key="GridCell.Tab.1.center" timestamp="1586499762742">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.1.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410642801" />
-    <state width="1878" height="380" key="GridCell.Tab.1.left" timestamp="1586410642800">
+    <state width="1878" height="285" key="GridCell.Tab.1.center/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762742" />
+    <state width="1878" height="285" key="GridCell.Tab.1.left" timestamp="1586499762741">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.1.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410642800" />
-    <state width="1878" height="380" key="GridCell.Tab.1.right" timestamp="1586410642802">
+    <state width="1878" height="285" key="GridCell.Tab.1.left/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762741" />
+    <state width="1878" height="285" key="GridCell.Tab.1.right" timestamp="1586499762743">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="380" key="GridCell.Tab.1.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586410642802" />
+    <state width="1878" height="285" key="GridCell.Tab.1.right/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586499762743" />
     <state x="469" y="190" key="SettingsEditor" timestamp="1586396358537">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="469" y="190" key="SettingsEditor/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586396358537" />
+    <state x="722" y="165" key="refactoring.ChangeSignatureDialog" timestamp="1586412926628">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="722" y="165" key="refactoring.ChangeSignatureDialog/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586412926628" />
     <state x="625" y="258" key="search.everywhere.popup" timestamp="1586397007220">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="625" y="258" key="search.everywhere.popup/-1920.23.1920.1057/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586397007220" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
