@@ -1,2 +1,4 @@
+.idea
 .idea/*
 microservice.iml
+target*
