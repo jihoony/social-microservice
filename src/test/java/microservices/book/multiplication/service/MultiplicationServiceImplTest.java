@@ -3,6 +3,7 @@ package microservices.book.multiplication.service;
 import microservices.book.multiplication.domain.Multiplication;
 import microservices.book.multiplication.domain.MultiplicationResultAttempt;
 import microservices.book.multiplication.domain.User;
+import microservices.book.multiplication.event.EventDispatcher;
 import microservices.book.multiplication.repository.MultiplicationResultAttemptRepository;
 import microservices.book.multiplication.repository.UserRepository;
 import org.assertj.core.util.Lists;
@@ -31,12 +32,15 @@ public class MultiplicationServiceImplTest {
   @Mock
   private UserRepository userRepository;
 
+  @Mock
+  private EventDispatcher eventDispatcher;
+
 
   @Before
   public void setUp() {
     // initMocks 를 호출해 Mockito 가 어노테이션을 처리하도록 지시
     MockitoAnnotations.initMocks(this);
-    multiplicationServiceImpl = new MultiplicationServiceImpl(randomGeneratorService, attemptRepository, userRepository);
+    multiplicationServiceImpl = new MultiplicationServiceImpl(randomGeneratorService, attemptRepository, userRepository, eventDispatcher);
   }
 
   @Test
@@ -50,7 +54,6 @@ public class MultiplicationServiceImplTest {
     // then
     assertThat(multiplication.getFactorA()).isEqualTo(50);
     assertThat(multiplication.getFactorB()).isEqualTo(30);
-//    assertThat(multiplication.getResult()).isEqualTo(1500);
   }
 
   @Test
